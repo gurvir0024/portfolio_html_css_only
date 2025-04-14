@@ -1,0 +1,110 @@
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;  
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: #00879E;
+}
+nav ul a:hover{
+    color: #04687a;
+    transition: all 0.4s;
+}
+.header{
+    text-align: center;
+}
+header h1{
+    font-family: sans-serif;
+    color: #003092;
+    font-size: 40px;
+}
+header p{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.p_img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+#about{
+    text-align: center;
+}
+#about p{
+    margin: 10px 100px; 
+}
+#project{
+    text-align: center;
+}
+.proj_img{
+    border-radius: 25px;
+}
+#project article{
+    margin: 50px 0;
+}
+#project h3{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-style: italic;
+}
+#project p{
+    margin: 10px 350px;
+}
+#skills{
+    text-align: center;
+    margin: 30px 0px;
+}
+#skills img{
+    position: relative;
+    top: 16px;
+}
+#skills span{
+    font-size: 20px;
+}
+#skills ul{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 5px;
+}
+#contact{
+    text-align: center;
+
+}
+#contact ul{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 5px;
+}
+#contact ul span{
+    font-size: 18px;
+}
+#contact ul img{
+    position: relative;
+    top: 6px;
+    height: 25px;
+}
+#contact form{
+    margin: 30px 0px;
+}
+#contact p{
+    margin: 10px 100px;
+}
+footer{
+    text-align: center;
+    font-size: 22px;
+}
+footer span{
+    text-decoration: underline;
+    color: #003092;
+}
